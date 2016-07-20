@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\bin\Debug\ConsoleApplication14.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\bin\Debug\ConsoleApplication14.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\bin\Debug\ConsoleApplication14.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\obj\Debug\lab8Clalculator(15.06.16).csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\obj\Debug\ConsoleApplication14.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication14\obj\Debug\ConsoleApplication14.pdb

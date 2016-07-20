@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\bin\Debug\ConsoleApplication26.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\bin\Debug\ConsoleApplication26.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\bin\Debug\ConsoleApplication26.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\obj\Debug\lab18(18.07.16).csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\obj\Debug\ConsoleApplication26.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\ConsoleApplication26\obj\Debug\ConsoleApplication26.pdb

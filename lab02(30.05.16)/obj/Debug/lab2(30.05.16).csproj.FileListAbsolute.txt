@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\obj\Debug\lab2(30.05.16).csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

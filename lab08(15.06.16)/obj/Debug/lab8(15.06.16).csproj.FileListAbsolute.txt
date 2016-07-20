@@ -1,0 +1,5 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication13\bin\Debug\ConsoleApplication13.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb

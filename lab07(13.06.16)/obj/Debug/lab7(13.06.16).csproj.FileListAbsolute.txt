@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\bin\Debug\ConsoleApplication12.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\bin\Debug\ConsoleApplication12.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\bin\Debug\ConsoleApplication12.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\obj\Debug\lab7(13.06.16).csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\obj\Debug\ConsoleApplication12.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication12\obj\Debug\ConsoleApplication12.pdb

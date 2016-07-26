@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\bin\Debug\ConsoleApplication11.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\obj\Debug\ConsoleApplication11.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\obj\Debug\ConsoleApplication11.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\bin\Debug\ConsoleApplication11.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\bin\Debug\ConsoleApplication11.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab06(08.06.16)\obj\Debug\lab06(08.06.16).csprojResolveAssemblyReference.cache

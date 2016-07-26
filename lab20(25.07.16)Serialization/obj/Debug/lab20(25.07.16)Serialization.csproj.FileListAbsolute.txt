@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\bin\Debug\lab20(25.07.16)Serialization.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\bin\Debug\lab20(25.07.16)Serialization.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\bin\Debug\lab20(25.07.16)Serialization.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\obj\Debug\lab20(25.07.16)Serialization.csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\obj\Debug\lab20(25.07.16)Serialization.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)Serialization\obj\Debug\lab20(25.07.16)Serialization.pdb

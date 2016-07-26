@@ -1,0 +1,5 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab15(04.07.16)\bin\Debug\ConsoleApplication23.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab15(04.07.16)\obj\Debug\ConsoleApplication23.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab15(04.07.16)\obj\Debug\ConsoleApplication23.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab15(04.07.16)\bin\Debug\ConsoleApplication23.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab15(04.07.16)\bin\Debug\ConsoleApplication23.pdb

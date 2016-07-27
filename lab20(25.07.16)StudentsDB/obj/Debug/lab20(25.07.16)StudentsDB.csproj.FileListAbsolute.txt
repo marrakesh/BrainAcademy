@@ -1,0 +1,6 @@
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\bin\Debug\lab20(25.07.16)StudentsDB.exe.config
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\bin\Debug\lab20(25.07.16)StudentsDB.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\bin\Debug\lab20(25.07.16)StudentsDB.pdb
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\obj\Debug\lab20(25.07.16)StudentsDB.csprojResolveAssemblyReference.cache
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\obj\Debug\lab20(25.07.16)StudentsDB.exe
+C:\Users\Alekseii Ozerov\OneDrive\Documents\Visual Studio 2015\Projects\BrainAcademy\lab20(25.07.16)StudentsDB\obj\Debug\lab20(25.07.16)StudentsDB.pdb

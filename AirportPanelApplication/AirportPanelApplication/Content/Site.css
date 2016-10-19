@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.black, .black a {
+  color: black;
+}
+ body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+
+  .carousel-inner img {
+      min-width: auto;
+      min-height: 10px;  
+      margin: auto;
+  }
+
+    .container {
+      padding: 40px 10px;
+  }
+ 
+  .border-shadow {
+      box-shadow: 10px 10px 5px grey;
+
+  }
+
+  #googleMap {
+      min-height: 400px;
+      min-width: 600px;
+  }

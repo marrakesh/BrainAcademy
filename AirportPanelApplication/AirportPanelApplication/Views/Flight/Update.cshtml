@@ -1,0 +1,156 @@
+﻿@using AirportPanelApplication.Models.Enteties
+@model AirportPanelApplication.Models.Enteties.Flight
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Update</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Flight</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FlightNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FlightNumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FlightNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Origin, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Origin, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Origin, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Destination, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Destination, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Destination, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DepartureTime, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DepartureTime, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DepartureTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ArrivalTime, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ArrivalTime, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.ArrivalTime, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FlightStatus, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.FlightStatus, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.FlightStatus, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Direction, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.Direction, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Direction, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Terminal, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.Terminal, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Terminal, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AirplaneId, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AirplaneId, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.AirplaneId, "", new {@class = "text-danger"})
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Passengers, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@foreach (Flight f in ViewBag.Flights)
+                {
+                    <input type="checkbox" name="selectedCourses" value="@f.Id"
+                           @(Model.Flights.Contains(f) ? "checked=\"checked\"" : "") />
+                    {
+                        @f.FlightNumber @f.Destination
+
+                    }
+                    <br />
+                }*@
+                <table class="table table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Checked</th>
+                            <th>Flight number</th>
+                            <th>Origin</th>
+                            <th>Destination</th>
+                            <th>Departure time</th>
+                            <th>Arrival time</th>
+                            <th>Terminal</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (Passenger f in ViewBag.Passengers)
+                    {
+                        <tbody name="selectedCourses" value="@f.Id">
+                        <td>
+                            <input type="checkbox" name="selectedCourses" value="@f.Id"
+                                   @(Model.Passengers.Contains(f) ? "checked=\"checked\"" : "") />
+                        </td>
+                        <td>@f.FirstName</td>
+                        <td>@f.LastName</td>
+                        <td>@f.Nationality</td>
+                        <td>@f.PassportSeries</td>
+                        <td>@f.PassportId</td>
+                        <td>@f.Birthdate</td>
+                        <td>@f.Sex</td>
+                        </tbody>
+                    }
+
+                </table>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-offset-2 col-md-10">
+                <span class="btn btn-default">
+                    @Html.ActionLink(" Back ", "Index", null, new { @class = "glyphicon glyphicon-arrow-left black" })
+                </span>
+                <button type="submit" class="btn btn-default">
+                    <span class="glyphicon glyphicon-save"></span> Save
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="border-shadow table-bordered col-md-4">
+    <h2>@ViewBag.Title</h2>
+    
+
+    <address>
+        pr.G. Gongadze<br />
+        Kiev, 04208<br />
+        <abbr title="Phone">P:</abbr>
+        +38 (063) 109 28 32
+    </address>
+
+    <address>
+        <strong>E-mail:</strong> <a href="mailto:alekseiiozerov@gmail.com">alekseiiozerov@gmail.com</a><br/>
+        <strong>LinkedIn:</strong> <a href="www.linkedin.com">www.linkedin.com</a><br />
+        <strong>Ozerov Alekseii</strong>
+    </address>
+</div>
+<div class="col-md-1"></div>
+<div id="googleMap" class="col-md-4 border-shadow" ></div>
+
+
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCns923aznvKl5x0hYmv21r-PJL_wKE6lw"></script>
+<script>
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+

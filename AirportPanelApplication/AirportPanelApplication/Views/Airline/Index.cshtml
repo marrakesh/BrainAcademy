@@ -1,0 +1,21 @@
+﻿@model List<AirportPanelApplication.Models.Enteties.Airline>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@foreach (var airline in Model.ToList())
+{<div class="col-md-4">
+     <div class="border-shadow table-bordered">
+         <address>
+             <strong>@airline.CompanyName</strong><br>
+             @airline.Address<br>
+             <abbr title="Phone">P:</abbr> @airline.PhoneNumber
+         </address>
+     </div>
+     <br />
+ </div>
+
+    
+}

@@ -1,0 +1,60 @@
+﻿@model List<AirportPanelApplication.Models.Enteties.Passenger>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div>
+    <h2>Passengers</h2>
+    @{
+        using (Html.BeginForm("Index", "Passenger", FormMethod.Get))
+        {
+            <p>
+              @Html.TextBox("searchString")
+            <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span> Search
+            </button>
+        </p>
+         }
+    }
+</div>
+<div class="divider">
+    @{
+        <table class="table table-hover table-condensed table-bordered border-shadow">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Nationality</th>
+                    <th>Passport series</th>
+                    <th>Passport Id</th>
+                    <th>Birth date</th>
+                    <th>Sex</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            @foreach (var passenger in Model)
+            {
+                <tbody>
+                <td>@passenger.Id</td>
+                <td>@Html.ActionLink(@passenger.FirstName +" "+ passenger.LastName, "Details", new { id = @passenger.Id }, new { @class = "label label-default" })</td>
+                <td>@passenger.Nationality</td>
+                <td>@passenger.PassportSeries</td>
+                <td>@passenger.PassportId</td>
+                <td>@passenger.Birthdate.ToString("dd.MM.yyyy")
+</td>
+                <td>@passenger.Sex</td>
+                <td>
+                    <div class="btn"> @Html.ActionLink(" ", "Update", new { id = @passenger.Id }, new { @class = "glyphicon glyphicon-pencil black btn btn-primary" })</div>
+                    <div class="btn"> @Html.ActionLink(" ", "Delete", new { id = @passenger.Id }, new { @class = "glyphicon glyphicon-trash black btn btn-danger" })</div>
+                </td>
+                </tbody>
+            }
+
+        </table>
+        <div class="btn">@Html.ActionLink(" Create", "Create", "Passenger", new { @class = "glyphicon glyphicon-plus black btn btn-success " })</div>
+    }
+</div>
+
